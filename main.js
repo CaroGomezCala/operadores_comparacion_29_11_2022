@@ -1,12 +1,9 @@
 addEventListener("DOMContentLoaded", (e)=>{
-    //Operadores de comparacion
-    //DesIgualdad Estricta: Devuelve un valor booleano true si los operandos son del mismo tipo pero NO SON IGUALES
-    // o si SON DE DISTINTO TIPO.
+    /*Operadores de comparacion
+    Mayor que: devuelve valor boolean true si el operando izquierdo es mayor que el derecho.
+    */
     let num1 = Number(prompt("Digita un numero por favor: "));
-    console.log(`Has digitado el numero ${num1}`);
-    console.log(`El Numero es desigualmente estrictamente 5?. True = verdadero, False = Falso`);
-    console.log(num1!==5); 
-    console.log(`Es 5 desigualmente estricto de "5"?. True = verdadero, False = Falso`);
-    console.log(5!=="5");
-    console.log(`La respuesta es true ya que 5 es un numero mientras "5" es un string, por lo tanto son de distinto tipo`);
+    let num2 = Number(prompt("Digita un segundo numero por favor: "));
+    console.log(`Es el numero ${num1} mayor que el numero ${num2}?`);
+    console.log(num1>num2);
 })
